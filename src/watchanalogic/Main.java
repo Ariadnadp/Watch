@@ -17,12 +17,11 @@ public class Main extends JFrame {
         add(watchDisplay);
     }
 
-    // Metodo para ejecutar la ventana
+    // Method execute
     private void execute() {
         setVisible(true);
     }
 
-    // Metodo para iniciar los componentes
     private void initComponents() {
         setTitle("Watch");
         setSize(478,500);

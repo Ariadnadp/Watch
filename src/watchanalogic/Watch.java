@@ -37,7 +37,6 @@ public class Watch {
             observer.update();
     }
     
-    // Método
     private TimerTask task() {
         return new TimerTask(){
             private static final double PI2 = Math.PI*2;
